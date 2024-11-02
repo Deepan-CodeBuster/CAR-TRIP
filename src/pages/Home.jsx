@@ -6,7 +6,7 @@ import { PlusCircleIcon, InformationCircleIcon, CalculatorIcon, UserIcon } from 
 const DashboardPage = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
-      <h1 className="text-3xl font-bold text-center mb-6 text-white bg-purple-600 p-5 rounded-lg shadow-lg">Car Trip</h1>
+       
       
       {/* Attractive Banner */}
       <div className="bg-gradient-to-r from-purple-500 to-blue-500 p-6 rounded-lg mb-6 m-2 shadow-lg text-center">

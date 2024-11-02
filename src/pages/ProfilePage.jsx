@@ -31,10 +31,16 @@ const ProfilePage = () => {
             </p>
             <p className="text-gray-600">
               <span className="font-semibold text-purple-600">Car Number:</span> {userData.carNumber}
+            </p><br />
+            <h2 className="text-lg font-semibold text-gray-700 mb-4">Car Proofs</h2>
+            <p className="text-gray-600">
+              <span className="font-semibold text-purple-600">Car Insurance:</span> <a className="bg-purple-600 text-white p-2 text-xs rounded-full" href="https://drive.google.com/file/d/1edxPOFCWRcyyi09SRn5NcactmCF9-_9g/view?pli=1">Click Here</a>
             </p>
           </div>
         </div>
+    
       </div>
+      
       <Navbar />
     </>
   ) : null; // No loading message, displays null if no data is loaded

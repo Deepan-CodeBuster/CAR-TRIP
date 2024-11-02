@@ -210,8 +210,9 @@ function AddTrip() {
           >
             Submit
           </button>
+         
         </form>
-        
+        <br /><br /><br /><br /><br /> <br />
       </div>
     </div>
   );
