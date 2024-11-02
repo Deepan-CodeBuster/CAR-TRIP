@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
-import NotFound from "./pages/NotFound"
+import NotFound from "./pages/NotFound";
 import AddTrip from "./pages/AddTrip";
 import Profile from "./pages/ProfilePage";
 import Tripinfo from "./pages/TripInfo";
